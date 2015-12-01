@@ -1,20 +1,19 @@
-<ion-view view-title="Dartfeed">
+<ion-view>
   <ion-content ng-controler="UserController">
     <ion-list>
-      <h1 style='text-align: center;'> {{me.name}}'s Profile </h1>
+      <h1 class="font" style='text-align: center;'> {{me.name}}'s Profile </h1>
 
       <img src = '{{me.picture}}'
       class='userImg'>
-      <h3 style='text-align: center;'>My Interests </h3>
-      <ion-item ng-repeat='categ in categories'>
+      <ion-item class="font" ng-repeat='categ in categories'>
       {{categ}}
       </ion-item>
-      <ion-item ng-repeat="cat in catList" href="#/app/articles/{{category.title}}" ng-click='passCategory(cat.name)' ng-show="cat.checked">
+      <ion-item class="font" ng-repeat="cat in catList" href="#/app/articles/{{category.title}}" ng-click='passCategory(cat.name)' ng-show="cat.checked">
         {{cat.name}}
 
       </ion-item>
 
-      <button ng-click='addCatNav()' class="button raised button-full button-positive">
+      <button ng-click='addCatNav()' class="button raised button-full button-positive font">
         Manage Categories
       </button>
     </ion-list>

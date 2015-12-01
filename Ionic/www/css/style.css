@@ -14,7 +14,11 @@
   background-size: cover;
 }
 
-/*.logo {
+.font {
+  font-family: 'Raleway';
+}
+
+/*logo {
   background-image: url('../img/earth.gif');
   width: 247px;
   height: 248px;
