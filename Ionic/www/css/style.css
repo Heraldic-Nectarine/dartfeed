@@ -1,14 +1,14 @@
 /* Empty. Add your own CSS if you like */
 .background {
-/*  background-image: url('../img/forest.jpg');*/
+background-image: url('../img/forest.jpg');
   background-color: #E1F5FE;
   width: 2000px;
   height: 1016px;
-  -webkit-filter: blur(1px);
-  -moz-filter: blur(3px);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(14px);
   -o-filter: blur(3px);
   -ms-filter: blur(3px);
-  filter: blur(3px);
+  filter: blur(10px);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -34,7 +34,7 @@
 }
 
 .loginPage {
-  color: #424242;
+  color: #FBE9E7;
   font-family: 'Raleway';
   font-size: 60px;
   font-style: normal;
@@ -46,10 +46,11 @@
   border-width: 5px;
   border-color: #4DB6AC;
   background-color: #4DB6AC;
+  max-width: 100%
 }
 
 .info {
-  color: #424242;
+  color: #FBE9E7;
   font-family: 'Helvetica';
   font-size: 20px;
   font-style: normal;
@@ -84,7 +85,7 @@ img {
   height: 50px;
   line-height: 32px;
   font-size: 1.5em;
-  color: #424242;
+  color: #FBE9E7;
   border-radius: 20px;
   background:transparent
 }
