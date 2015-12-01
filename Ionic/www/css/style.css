@@ -1,11 +1,16 @@
 /* Empty. Add your own CSS if you like */
-@font-face {
-  font-family: 'MyWebFont';
-  src: url('Exo2-Black.otf');
-}
-
 .background {
-  background-color: #82B1FF;
+  background-image: url('../img/forest.jpg');
+  width: 900px;
+  height: 1016px;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .userImg {
@@ -18,7 +23,8 @@
 }
 
 .loginPage {
-  font-family: 'MyWebFont';
+  color: white;
+  font-family: 'Raleway';
   font-size: 60px;
   font-style: normal;
   font-variant: normal;
@@ -28,8 +34,9 @@
 }
 
 .info {
-  font-family: 'MyWebFont', sans-serif;
-  font-size: 30px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
   font-style: normal;
   font-variant: normal;
   font-weight: 250;
@@ -38,7 +45,7 @@
 }
 
 button {
-  font-family: 'MyWebFont';
+  font-family: 'Helvetica';
   font-size: 80px;
 }
 
@@ -52,10 +59,11 @@ img {
   width: 300px;
   height: 50px;
   line-height: 32px;
-  border-radius: 2px;
   font-size: 1.5em;
   background-color: #fff;
   color: #646464;
+  border-radius: 20px;
+
 }
 
 .button > paper-ripple {
