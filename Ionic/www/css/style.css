@@ -1,7 +1,7 @@
 /* Empty. Add your own CSS if you like */
 .background {
 /*  background-image: url('../img/forest.jpg');*/
-  background-color: #3F51B5;
+  background-color: #E1F5FE;
   width: 2000px;
   height: 1016px;
   -webkit-filter: blur(1px);
@@ -34,7 +34,7 @@
 }
 
 .loginPage {
-  color: #FFFFFF;
+  color: #424242;
   font-family: 'Raleway';
   font-size: 60px;
   font-style: normal;
@@ -44,12 +44,12 @@
   line-height: 26.3999996185303px;
   border-style: solid;
   border-width: 5px;
-  border-color: #009688;
-  background-color: #009688;
+  border-color: #4DB6AC;
+  background-color: #4DB6AC;
 }
 
 .info {
-  color: #FFEBEE;
+  color: #424242;
   font-family: 'Helvetica';
   font-size: 20px;
   font-style: normal;
@@ -81,11 +81,11 @@ img {
 .FBbutton {
   display: inline-block;
   position: relative;
-  width: 250px;
+  width: 300px;
   height: 50px;
   line-height: 32px;
   font-size: 1.5em;
-  color: #FFEBEE;
+  color: #424242;
   border-radius: 20px;
   background:transparent
 }
@@ -102,6 +102,17 @@ img {
 }
 
 .button.raised:active {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+  transition-delay: 0s;
+}
+
+.loginPage.raised {
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.loginPage.raised:active {
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
   transition-delay: 0s;
 }
