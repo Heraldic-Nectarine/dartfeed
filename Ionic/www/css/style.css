@@ -46,6 +46,7 @@
   border-width: 5px;
   border-color: #4DB6AC;
   background-color: #4DB6AC;
+  width: 100%;
 }
 
 .info {
@@ -81,7 +82,7 @@ img {
 .FBbutton {
   display: inline-block;
   position: relative;
-  width: 300px;
+  width: 400px;
   height: 50px;
   line-height: 32px;
   font-size: 1.5em;
